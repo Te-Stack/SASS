@@ -7,3 +7,8 @@ function buildStyles(){
         .pipe(dest("css"))
 }
 
+function watchTask(){
+    watch(["index.scss"],buildStyles)
+}
+
+exports.default = series(buildStyles,watchTask)
