@@ -34,3 +34,28 @@ $primary-color: #326dee;
 $secondary-color: #1ac888;
 $error-color: #ff0000;
 $info-color: #f6c31c;
+
+h1{
+  color: $primary-color;
+}
+
+a{
+  color: $secondary-color;
+}
+
+button{
+  color: white;
+  border: 0;
+  background-color: $primary-color;
+}
+.error{
+  color: $error-color;
+  border-color: $error-color;
+  border-style: solid;
+}
+
+.notification{
+  color: $secondary-color;
+  border-color: $secondary-color;
+  border-style: solid;
+}
